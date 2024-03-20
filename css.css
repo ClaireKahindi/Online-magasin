@@ -108,23 +108,27 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #f8f8f8;
   color: #fff;
   padding: 20px;
 }
 
 nav ul {
   list-style-type: none;
-  padding: 0;
+  padding: 0x;
+  text-align: center;
+  font-size: 30px;
+
 }
 
 nav ul li {
   display: inline;
   margin-right: 20px;
+  padding: 50px;
 }
 
 nav ul li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -152,4 +156,22 @@ footer {
       display: block;
       margin-bottom: 10px;
   }
+}
+
+input[type=text] {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 1600px;
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: -135px;
+  margin-left: 1650px;
 }
