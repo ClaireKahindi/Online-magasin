@@ -133,12 +133,12 @@ nav ul li a {
 }
 
 main {
-  padding: 20px;
+  padding: 200px;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #f1f1f1;
+  color: #000000;
   padding: 10px 20px;
   position: fixed;
   bottom: 0;
