@@ -74,6 +74,10 @@ body {
         margin-bottom: 10px;
     }
   }
+
+  h3{
+    color: #d2ce72;
+  }
   
   input[type=text] {
     position: absolute;

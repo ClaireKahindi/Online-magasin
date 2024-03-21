@@ -5,10 +5,17 @@
 
  /**MIN HEADER**/
 
- header {
+
+header {
     background-color: #f8f8f8;
     color: #f8f8f8;
     padding: 20px;
+  }
+
+  h1{
+    color: #840028;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
   }
   
   nav{
@@ -55,46 +62,27 @@ button {
   margin-left: 1700px;
 }
 
-
-/**MIT BODY ELEMENT**/
-
-h1{
-    text-align: center;
-    color:#840028;
-}
-
-body {
-    background-color: #f8f8f8;
-    font-family: 'Poppins';
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    margin-bottom: 200px;
-}
-
-.text {
-    text-align: center;
-    max-width: 1000px;
-    font-size: 25px;
-    line-height: 60px;
-    margin-left: 425px;
-    
-  }
-
-.LMbutton {
-    border-radius: 20px;
-    padding: 30px;
-    width: 200px;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 800px;
-    color: #ffffff;
+.flex-container, .flex-container2 {
+    max-width: 5000px;
+    display: flex;
     background-color: #840028;
-    text-align: center;
-    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .flex-container > div, .flex-container2 > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 60px;
   }
 
-/*footer*/
+
+body{
+    margin-bottom: 100px;
+    background-color: #f8f8f8;
+}
+
 
 footer {
     background-color: #f1f1f1;
