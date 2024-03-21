@@ -2,6 +2,8 @@
  * file: js/js.js
  * purpose: Behaviors
  **/
+
+/** 
 console.log('Success: JavaScript from js/js.js running!')
 
  let slideIndex = 1;
@@ -30,3 +32,5 @@ console.log('Success: JavaScript from js/js.js running!')
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
       }
+
+      */
